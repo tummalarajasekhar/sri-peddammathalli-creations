@@ -1,0 +1,18 @@
+{
+  "name": "sri-peddammathalli-creations",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Official website of Sri Peddammathalli Creations - Telugu film production house",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=20.12"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "nodemailer": "^6.9.16"
+  }
+}
